@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test / lint / type-check
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Logs / caches
+*.log
+.cache/
+
+# ML experiment tracking
+mlruns/
+wandb/
+lightning_logs/
+runs/
+
+# Model artifacts / checkpoints (large)
+checkpoints/
+models/
+
+# Data (keep small samples via exceptions below)
+data/**
+datasets/**
+dataset/**
+!data/README.md
+!data/sample/**
+!data/samples/**
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
